@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "permit_id",
+    "decision_hash",
+    "policy_version",
+    "risk_level",
+    "issued_at",
+    "expires_at",
+    "neo_tx_hash"
+  ],
+  "properties": {
+    "permit_id": {"type": "string"},
+    "decision_hash": {"type": "string"},
+    "policy_version": {"type": "string"},
+    "risk_level": {"type": "string", "enum": ["LOW", "MEDIUM", "HIGH"]},
+    "issued_at": {"type": "string"},
+    "expires_at": {"type": "string"},
+    "neo_tx_hash": {"type": "string"},
+    "neo_mode": {"type": "string"}
+  }
+}

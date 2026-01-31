@@ -1,0 +1,19 @@
+# python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# logs / data outputs (generated)
+data/*.jsonl
+data/*.log
+data/*.sqlite
+data/*.db
+
+# local env
+.env
+.env.*
+
+# os/editor
+.DS_Store
+.vscode/

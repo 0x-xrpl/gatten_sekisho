@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+jsonschema
+httpx
+neo-mamba
+cryptography
+openai
+anthropic
+google
+google-genai
+pinecone
