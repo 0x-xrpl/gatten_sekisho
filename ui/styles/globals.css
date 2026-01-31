@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sumi: #1f1f1f;
+  --ai: #2f4b7c;
+  --shu: #b23a2f;
+  --tan: #f2d67b;
+  --paper: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "Times New Roman", serif;
+  color: var(--sumi);
+  background: var(--paper);
+}
+
+code, pre {
+  font-family: "JetBrains Mono", "Menlo", "Monaco", monospace;
+}
+
+.scrollbox {
+  max-height: 280px;
+  overflow: auto;
+}
+
+.reason-band {
+  min-height: 56px;
+}
